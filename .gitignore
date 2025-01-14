@@ -1,0 +1,28 @@
+# General
+bin/
+obj/
+**/*.user
+**/*.suo
+.vs/
+*.DS_Store
+*.log
+
+# Build results
+*.exe
+*.dll
+*.pdb
+*.cache
+*.tmp
+
+# Rider and VSCode settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Packages
+**/packages/*
+!**/packages/*.config
+
+# Sensitive or local files
+secrets.json
+appsettings.*.json
