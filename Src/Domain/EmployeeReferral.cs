@@ -10,6 +10,10 @@ namespace Domain
     {
         [Key]
         public int Id { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public DateTime ModifiedOn { get; set; }
+        public string CreatedBy { get; set; }
+        public string ModifiedBy { get; set; }
         // Applicant information
         public string ApplicantFirstName { get; set; }
         public string ApplicantLastName { get; set; }
